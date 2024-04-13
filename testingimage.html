@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image with Text at Top Left</title>
+  <style>
+    .image-container {
+      position: relative;
+      display: inline-block; /* Ensures container only takes up space it needs */
+    }
+
+    .top-left-text {
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: rgba(255, 255, 255, 0.7); /* Optionally, add background color to make text more visible */
+      padding: 5px;
+      font-family: Arial, sans-serif; /* Optionally, set font family */
+      font-size: 16px; /* Optionally, set font size */
+      color: black; /* Optionally, set text color */
+    }
+  </style>
+</head>
+<body>
+
+<div class="image-container">
+  <img src="assets/images/about-banner.jpg" alt="Your Image">
+  <div class="top-left-text">Top Left Text
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, culpa!</p></div>
+</div>
+
+</body>
+</html>
